@@ -1,0 +1,5 @@
+.DS_Store
+*.dylib
+*.bak
+程序内汉化/译文.json
+程序内汉化/翻译层/cczh_dict.tsv

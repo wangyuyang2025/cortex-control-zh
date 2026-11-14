@@ -1,0 +1,6235 @@
+[
+{
+"en": "The XLR signal is completely isolated when a TS cable is connected. Enabling PHANTOM 48V will only affect the XLR signal, ensuring safe operation even if activated while a TS cable is plugged in.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"inputLevelViewController"
+],
+"n": 4
+},
+{
+"en": "Tap to assign or unassign the current EQ curve to the Output pair 1/2.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"gainViewController"
+],
+"n": 2
+},
+{
+"en": "Tap to assign or unassign the current EQ curve to the Output pair 3/4.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"gainViewController"
+],
+"n": 2
+},
+{
+"en": "The IMPEDANCE knob affects only the TS port of the Combo input regardless of the connected cable.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"inputLevelViewController"
+],
+"n": 2
+},
+{
+"en": "By default, TS cables connected to RETURN 1/2 will only transmit signal routed to RETURN 1. To access both RETURNS, use an insert cable (TRS to dual TS) to split the signal as follows:&#10;&#10;• Tip: RETURN 1&#10;• Ring: RETURN 2",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"levelViewController"
+],
+"n": 2
+},
+{
+"en": "By default, TS cables connected to SEND 1/2 will only transmit signal routed to SEND 1. To access both SENDS, use an insert cable (TRS to dual TS) to split the signal as follows:&#10;&#10;• Tip: SEND 1&#10;• Ring: SEND 2",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"levelViewController"
+],
+"n": 2
+},
+{
+"en": "Swap between Clean DIs or processed signal fed into USB Outs 1-2 or 3-4 (Inputs 1-2 and 3-4 on your DAW).",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"dryWet"
+],
+"n": 2
+},
+{
+"en": "Playback from the host through XLR outputs (non-selectable on grid). Select Output 1/2 from your Host to hear playback through XLRs.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"levelViewController"
+],
+"n": 2
+},
+{
+"en": "Cue/Playback from the host through headphones output (non-selectable on grid). Select Output 3/4 on your host to hear the signal through your headphones.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"levelViewController"
+],
+"n": 2
+},
+{
+"en": "Manual route from the host to grid selectable lane input. Select Output 5/6 from your Host to route signal to the grid Input.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"levelViewController"
+],
+"n": 2
+},
+{
+"en": "Manual route from the host to grid selectable lane input. Select Output 7/8 from your Host to route signal to the grid Input.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"levelViewController"
+],
+"n": 2
+},
+{
+"en": "dynamic_usb_tooltip",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"levelViewController"
+],
+"n": 4
+},
+{
+"en": "Manual route from the host to grid selectable lane output. Select Input 5/6 on your Host to route signal from the grid Output.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"levelViewController"
+],
+"n": 2
+},
+{
+"en": "Manual route from the host to grid selectable lane output. Select Input 7/8 on your Host to route signal from the grid Output.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"levelViewController"
+],
+"n": 2
+},
+{
+"en": "CORTEX CLOUD",
+"kind": [
+"text"
+],
+"ctx": [
+"cloudNeedToLoginView",
+"topBarView"
+],
+"n": 4
+},
+{
+"en": "Please log in to link DEVICE_NAME with your Neural DSP account, and to access Cortex Cloud.",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView",
+"cloudNeedToLoginView"
+],
+"n": 4
+},
+{
+"en": "Login",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView",
+"cloudNeedToLoginView",
+"deviceSettingsMyAccountSignupView"
+],
+"n": 8
+},
+{
+"en": "Are you sure you want to unlink this device?",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Cancel",
+"kind": [
+"text"
+],
+"ctx": [
+"cabsimPanelView",
+"deviceBrowserView",
+"fwUpdaterModalMask"
+],
+"n": 68
+},
+{
+"en": "Yes, I'm sure.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Overwrite",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Ok",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 6
+},
+{
+"en": "Yes",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask",
+"panel"
+],
+"n": 6
+},
+{
+"en": "No",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Delete",
+"kind": [
+"text",
+"tooltip"
+],
+"ctx": [
+"backupCellContainer",
+"directoryCapturesView",
+"directoryIRsView"
+],
+"n": 20
+},
+{
+"en": "Backup ready to install",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "ARE YOU SURE?",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Proceed",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Title",
+"kind": [
+"text"
+],
+"ctx": [
+"backupCellContainer"
+],
+"n": 2
+},
+{
+"en": "Jan-10-2022, 19:40:20",
+"kind": [
+"text"
+],
+"ctx": [
+"backupCellContainer"
+],
+"n": 2
+},
+{
+"en": "Jan-10-2022, 05:48",
+"kind": [
+"text"
+],
+"ctx": [
+"backupCellContainer"
+],
+"n": 2
+},
+{
+"en": "Search",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"backupCellContainer",
+"directoryBrowserView"
+],
+"n": 4
+},
+{
+"en": "Edit name",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"backupCellContainer"
+],
+"n": 2
+},
+{
+"en": "Update",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"backupCellContainer"
+],
+"n": 2
+},
+{
+"en": "Load",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"backupCellContainer"
+],
+"n": 2
+},
+{
+"en": "Create new",
+"kind": [
+"text"
+],
+"ctx": [
+"newCloudBackupContainer",
+"newLocalBackupContainer"
+],
+"n": 4
+},
+{
+"en": "Import local backup",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"newLocalBackupContainer"
+],
+"n": 2
+},
+{
+"en": "Rename Backup",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "New name",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Rename",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 8
+},
+{
+"en": "No internet connection detected",
+"kind": [
+"text"
+],
+"ctx": [
+"container"
+],
+"n": 2
+},
+{
+"en": "You need to be logged in to your Neural DSP account to create or download cloud backups.",
+"kind": [
+"text"
+],
+"ctx": [
+"container"
+],
+"n": 2
+},
+{
+"en": "ABOUT US",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "SUPPORT",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "If you need support, you can contact\n\nAlso be sure to check out our user forums at",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "support@neuraldsp.com",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "unity.neuraldsp.com",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "BRIGHTNESS",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Set the screen and LED brightness of the connected DEVICE_NAME",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Screen",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "LEDs",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Dimmed LEDs",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Display dimmed\nLEDs in:",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enable dimmed LEDs in PRESET mode",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enable dimmed LEDs in SCENE mode",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enable dimmed LEDs in STOMP mode",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Reset to defaults",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask",
+"panel"
+],
+"n": 4
+},
+{
+"en": "Domain Settings",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "INTERNET CONNECTION",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "NO INTERNET CONNECTION DETECTED",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView",
+"deviceSettingsMyAccountProfileView",
+"panel"
+],
+"n": 8
+},
+{
+"en": "DEVICE_NAME is using your computer's internet connection",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 6
+},
+{
+"en": "Reset DEVICE_NAME Wi-Fi settings",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Pressing reset will erase all stored Wi-Fi networks",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Reset",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask",
+"panel"
+],
+"n": 4
+},
+{
+"en": "Automatic internet connectivity check",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "When disabled, DEVICE_NAME assumes it has an internet connection when it is\nconnected via Wi-Fi with a valid IP address. Enable this if you have issues\nconnecting to Cortex Cloud due to network or geographical restrictions.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enabled",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 4
+},
+{
+"en": "Disabled",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 18
+},
+{
+"en": "DEVICE INFORMATION",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Serial number: ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Device name: ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "MAC address: ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "CorOS: ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "U-Boot: ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Linux Kernel: ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Zenjack FW app: ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Zenjack FW bootloader: ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Zencoder FW app: ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Zencoder FW bootloader: ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Zenwireless FW: ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "DEVICE STORAGE",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "My Presets",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "My Captures",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "My Impulse Responses",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Back",
+"kind": [
+"text"
+],
+"ctx": [
+"domainSettingsView"
+],
+"n": 2
+},
+{
+"en": "DOMAIN SETTINGS",
+"kind": [
+"text"
+],
+"ctx": [
+"domainSettingsView"
+],
+"n": 2
+},
+{
+"en": "Select which Cortex Cloud domain your DEVICE_NAME connects to. Use this setting to ensure reliable cloud connectivity based on your location.",
+"kind": [
+"text"
+],
+"ctx": [
+"domainSettingsView"
+],
+"n": 2
+},
+{
+"en": "DYNAMIC LATENCY COMPENSATION",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Disabling Dynamic Latency compensation may help if phasing occurs\nwhen bypassing a device.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enabled (Factory Default)",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "CHOOSE A RECOVERY OPTION",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Reset Settings",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Factory Reset",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Factory Reset - Warning!",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "GIG VIEW FOOTSWITCH ACCESS",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "On",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer",
+"ioPanelContainer",
+"panel"
+],
+"n": 22
+},
+{
+"en": "Off (Factory Default)",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "GLOBAL BYPASS",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Globally bypass Cabs or IR Loaders on any row. Globally bypassed devices will have a\nbypass icon        but will not appear bypassed on The Grid.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "ROW 1",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 4
+},
+{
+"en": "ROW 2",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 4
+},
+{
+"en": "ROW 3",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 4
+},
+{
+"en": "ROW 4",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 4
+},
+{
+"en": "HOLD TIMING",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Sets how long a footswitch must be held down to trigger its assigned HOLD action.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Hold Time",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "500ms",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "600ms",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "700ms",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "800ms",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "900ms",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "1000ms",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "MASTER VOLUME ASSIGNMENT",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Master Volume can control different outputs.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Out 1/2",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Out 3/4",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Send 1/2",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Headphones",
+"kind": [
+"text"
+],
+"ctx": [
+"connectionDiagramContainerView",
+"panel"
+],
+"n": 4
+},
+{
+"en": "MIDI SETTINGS",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Sets the DEVICE_NAME base MIDI channel.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "DEVICE_NAME base MIDI channel",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Midi Thru allows many devices to have their MIDI connections daisy chained together, all being driven by a common MIDI source",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "MIDI Thru",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enable or disable MIDI over USB",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "MIDI Over USB",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enabled: A Preset will not be reloaded if the corresponding MIDI Program message is sent.\nCC#0 and CC#32 messages will be ignored.\n\nDisabled: A preset will be reloaded if the corresponding MIDI Program Change message is sent.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Ignore duplicate PC",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enable or disable MIDI clock out on QC",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enable MIDI clock out",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enable or disable MIDI clock in on QC",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enable MIDI clock in",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "We have reserved a few specific MIDI CC messages for global functions.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Incoming MIDI reserved CC list",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "POWER FUNCTIONS",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "SHUTDOWN",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "REBOOT",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "BE RIGHT BACK",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "POWER BUTTON SENSITIVITY",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Set the amount of pressure required to trigger the power button on the DEVICE_NAME",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Sensitivity",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "OFF",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer",
+"panel",
+"settingView"
+],
+"n": 6
+},
+{
+"en": "LOW",
+"kind": [
+"text"
+],
+"ctx": [
+"panel",
+"parallaxFilterPanelView"
+],
+"n": 4
+},
+{
+"en": "MEDIUM",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "HIGH",
+"kind": [
+"text"
+],
+"ctx": [
+"panel",
+"parallaxFilterPanelView"
+],
+"n": 4
+},
+{
+"en": "POWER ON MODE",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Select the preferred startup behavior when connecting Quad Cortex mini to a power source.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "PRESET AND SCENE RELOAD BEHAVIOR",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Enabling this feature will allow an active Preset or Scene to be reloaded via its assigned\nfootswitch",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "RELOAD AN ACTIVE PRESET",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "RELOAD AN ACTIVE SCENE",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "SCENE BLOCK BYPASS BEHAVIOR",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "This feature controls whether changes to the bypass state of a block in Scene Mode are\nautomatically saved to the active Preset.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "SEND REPORT",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Use the button below to submit a diagnostic report to our support team.\nThe report submission process can take up to a couple of minutes.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Send Report",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "No internet connection.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "WAKE",
+"kind": [
+"text"
+],
+"ctx": [
+"background"
+],
+"n": 2
+},
+{
+"en": "Your device is in BE RIGHT BACK mode.",
+"kind": [
+"text"
+],
+"ctx": [
+"background"
+],
+"n": 2
+},
+{
+"en": "STOMP MODE BYPASS ASSIGNMENT",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "A global setting for whether footswitches are automatically assigned to blocks' bypass settings. If you enable auto-assign, blocks will be assigned to footswitches in the order they are added to The Grid.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "AUTO-ASSIGN",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Disabled (Factory Default)",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "SWAP TEMPO AND TUNER ACCESS",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "SWAP TEMPO AND TUNER",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "No (Factory Default)",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "UPDATES",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "DEVICE_NAME software version:",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "CorOS 2.1.1",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Cortex Control software version:",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "CorOS 2.0.5",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Although the CorOS is backwards compatible, for the best experience, we recommend\nsyncing both versions.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Check for updates",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "NEWS",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Visit our blog and check out the latest news at ",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "neuraldsp.com/news",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Device Settings",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Edit Profile",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Avatar",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Upload",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Username",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountSignupView",
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Bio",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Save",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 10
+},
+{
+"en": "PASSWORD RESET",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountPasswordResetView"
+],
+"n": 2
+},
+{
+"en": "Enter your email or username and we’ll email you a password reset link.",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountPasswordResetView"
+],
+"n": 2
+},
+{
+"en": "Email",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView",
+"deviceSettingsMyAccountPasswordResetView",
+"deviceSettingsMyAccountSignupView"
+],
+"n": 6
+},
+{
+"en": "SUBMIT",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountPasswordResetView"
+],
+"n": 2
+},
+{
+"en": "Back to login",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountPasswordResetView"
+],
+"n": 2
+},
+{
+"en": "MY ACCOUNT",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView",
+"deviceSettingsMyAccountProfileView"
+],
+"n": 4
+},
+{
+"en": "&lt;username&gt;",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountProfileView",
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Edit profile",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountProfileView"
+],
+"n": 2
+},
+{
+"en": "Unlink",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountProfileView",
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Refresh User Profile",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"deviceSettingsMyAccountProfileView"
+],
+"n": 2
+},
+{
+"en": "You need to be connected to the internet to unlink your device",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountProfileView"
+],
+"n": 2
+},
+{
+"en": "Device linked to neural@neuraldsp.com",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountProfileView"
+],
+"n": 2
+},
+{
+"en": "You need to be connected to the internet to log in to Cortex Cloud",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView"
+],
+"n": 2
+},
+{
+"en": "Password",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView",
+"deviceSettingsMyAccountSignupView"
+],
+"n": 4
+},
+{
+"en": "SHOW",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView",
+"deviceSettingsMyAccountSignupView"
+],
+"n": 4
+},
+{
+"en": "Forgot?",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView"
+],
+"n": 2
+},
+{
+"en": "Need an account? ",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView"
+],
+"n": 2
+},
+{
+"en": "Sign up",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView"
+],
+"n": 2
+},
+{
+"en": "SIGN UP",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountSignupView"
+],
+"n": 4
+},
+{
+"en": "At least 8 characters long.",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountSignupView"
+],
+"n": 2
+},
+{
+"en": "Must contain an uppercase letter (A-Z)",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountSignupView"
+],
+"n": 2
+},
+{
+"en": "Must contain a number (0-9)",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountSignupView"
+],
+"n": 2
+},
+{
+"en": "Keep me up to date on news and exclusive offers.",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountSignupView"
+],
+"n": 2
+},
+{
+"en": "By registering, you agree to Neural DSP’s Terms of Use and Privacy Policy.",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountSignupView"
+],
+"n": 2
+},
+{
+"en": "Already registered? ",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceSettingsMyAccountSignupView"
+],
+"n": 2
+},
+{
+"en": "Setlist Name",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Create",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Favorites and Recent",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryBrowserView"
+],
+"n": 2
+},
+{
+"en": "Plugin Presets",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryBrowserView"
+],
+"n": 2
+},
+{
+"en": "Presets",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryBrowserView"
+],
+"n": 2
+},
+{
+"en": "Neural Captures",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryBrowserView"
+],
+"n": 2
+},
+{
+"en": "Impulse Responses",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryBrowserView"
+],
+"n": 2
+},
+{
+"en": "Refresh",
+"kind": [
+"text",
+"tooltip"
+],
+"ctx": [
+"deviceBrowserView",
+"directoryBrowserView",
+"directoryCapturesView"
+],
+"n": 14
+},
+{
+"en": "FAVORITES",
+"kind": [
+"text"
+],
+"ctx": [
+"directoryBrowserView"
+],
+"n": 2
+},
+{
+"en": "RECENT",
+"kind": [
+"text"
+],
+"ctx": [
+"directoryBrowserView"
+],
+"n": 2
+},
+{
+"en": "Match",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Current name",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Counting order",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Number",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Replace with",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Preview",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Some items won’t be renamed",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "You’ll be able to review which captures weren’t renamed due to naming conflicts with existing items.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Type of Capture",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 6
+},
+{
+"en": "Preferred instrument",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Edit Capture Details",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Name",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 6
+},
+{
+"en": "Preferred Instrument",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 6
+},
+{
+"en": "Capture Type",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "This Neural Capture name is already taken.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Filter Captures",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "All",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Version 1",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask",
+"versionPickerView"
+],
+"n": 6
+},
+{
+"en": "Version 2",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask",
+"versionPickerView"
+],
+"n": 6
+},
+{
+"en": "Amp",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"modalMask",
+"versionPickerView"
+],
+"n": 10
+},
+{
+"en": "Combo Amp",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"modalMask",
+"versionPickerView"
+],
+"n": 10
+},
+{
+"en": "Amp+Cab",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"modalMask"
+],
+"n": 6
+},
+{
+"en": "Cab",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"modalMask",
+"versionPickerView"
+],
+"n": 10
+},
+{
+"en": "Pedal",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"modalMask",
+"versionPickerView"
+],
+"n": 6
+},
+{
+"en": "Default",
+"kind": [
+"text",
+"tooltip"
+],
+"ctx": [
+"modalMask",
+"modelPresetMenuItem"
+],
+"n": 10
+},
+{
+"en": "Fuzz",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"modalMask",
+"versionPickerView"
+],
+"n": 6
+},
+{
+"en": "Compressor",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"modalMask",
+"versionPickerView"
+],
+"n": 6
+},
+{
+"en": "Overdrive",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"modalMask",
+"versionPickerView"
+],
+"n": 4
+},
+{
+"en": "Show only Captures made by me",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Clear all",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Apply",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Filter",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryCapturesView"
+],
+"n": 4
+},
+{
+"en": "Like",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryCapturesView",
+"directoryIRsView",
+"directoryPluginPresetsView"
+],
+"n": 10
+},
+{
+"en": "Paste",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryCapturesView",
+"directoryIRsView",
+"directoryPresetsView"
+],
+"n": 6
+},
+{
+"en": "Edit",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryCapturesView",
+"directoryIRsView",
+"directoryPluginPresetsView"
+],
+"n": 8
+},
+{
+"en": "Upload to Cloud",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryCapturesView",
+"directoryPresetsView"
+],
+"n": 4
+},
+{
+"en": "Download",
+"kind": [
+"text",
+"tooltip"
+],
+"ctx": [
+"directoryCapturesView",
+"directoryIRsView",
+"directoryPresetsView"
+],
+"n": 8
+},
+{
+"en": "Deleting Folder",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Delete Folder",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Delete from Library",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Remove",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Are you sure you want to delete",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "This action is permanent.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Yes, delete",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Select All",
+"kind": [
+"text"
+],
+"ctx": [
+"directoryGlobalCheckboxView"
+],
+"n": 2
+},
+{
+"en": "Loading Impulse Responses",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "&lt;ADDING X WAVE FILES&gt;",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "&lt;FREE SLOT REPORT&gt;",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "By loading IRs, you agree to Neural DSP's",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Terms of Service",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "CANCEL",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Impulse Response Library",
+"kind": [
+"text"
+],
+"ctx": [
+"directoryIRsView"
+],
+"n": 2
+},
+{
+"en": "Impulse Responses you add here will be available on your DEVICE_NAME device. Double-click an IR to load it onto The Grid.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryIRsView"
+],
+"n": 2
+},
+{
+"en": "ERROR",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 10
+},
+{
+"en": "OK",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 10
+},
+{
+"en": "Overwrite Preset",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 8
+},
+{
+"en": "Are you sure you want to overwrite",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 6
+},
+{
+"en": "This action cannot be undone.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 8
+},
+{
+"en": "Are you sure?",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Swap",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Copy and Overwrite",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Loading User Presets",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "&lt;ADDING X FILES&gt;",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "&lt;Plugin Name&gt; User Presets",
+"kind": [
+"text"
+],
+"ctx": [
+"directoryPluginPresetsView"
+],
+"n": 2
+},
+{
+"en": "Presets you add here will be available on your DEVICE_NAME. Double-click a Preset to load it on The Grid.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryPluginPresetsView"
+],
+"n": 2
+},
+{
+"en": "Save to",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryPluginPresetsView"
+],
+"n": 2
+},
+{
+"en": "CorOS update needed",
+"kind": [
+"text"
+],
+"ctx": [
+"container"
+],
+"n": 2
+},
+{
+"en": "ACTIVE",
+"kind": [
+"text"
+],
+"ctx": [
+"container"
+],
+"n": 4
+},
+{
+"en": "Edit Preset Details",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Save and Edit Next",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Accept",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Go to My Presets",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Paste the Presets one by one above, or choose one of these quick options:",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Paste consecutively from the\nfirst chosen slot onwards",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Paste consecutively from the first empty slot onwards",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Copy",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryPresetsView"
+],
+"n": 2
+},
+{
+"en": "Move to",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"directoryPresetsView"
+],
+"n": 2
+},
+{
+"en": "Drag here",
+"kind": [
+"text"
+],
+"ctx": [
+"directoryPresetsView"
+],
+"n": 2
+},
+{
+"en": "SUGGESTIONS",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Search for Presets, Neural Captures, or Impulse Responses",
+"kind": [
+"text"
+],
+"ctx": [
+"directorySearchView"
+],
+"n": 2
+},
+{
+"en": "RECENT SEARCHES",
+"kind": [
+"text"
+],
+"ctx": [
+"directorySearchView",
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "CLEAR",
+"kind": [
+"text"
+],
+"ctx": [
+"directorySearchView",
+"irLoaderPanelView",
+"irParametersView"
+],
+"n": 16
+},
+{
+"en": "Filters",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Capture Version",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Time Added",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "GUITAR",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceBrowserView"
+],
+"n": 2
+},
+{
+"en": "BASS",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceBrowserView"
+],
+"n": 2
+},
+{
+"en": "MONO",
+"kind": [
+"text"
+],
+"ctx": [
+"deviceBrowserView"
+],
+"n": 2
+},
+{
+"en": "Switch on...",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView"
+],
+"n": 2
+},
+{
+"en": "Switch delay",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView"
+],
+"n": 2
+},
+{
+"en": "Latch Emulation",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView"
+],
+"n": 2
+},
+{
+"en": "ASSIGN EXPRESSION PEDAL",
+"kind": [
+"text"
+],
+"ctx": [
+"expressionBrowserView"
+],
+"n": 2
+},
+{
+"en": "Enable the checkbox near each\nparameter you'd like to control with\nthe expression pedal. You can\ncontrol multiple parameters from\nmultiple separate virtual devices.",
+"kind": [
+"text"
+],
+"ctx": [
+"expressionBrowserView"
+],
+"n": 2
+},
+{
+"en": "DONE",
+"kind": [
+"text"
+],
+"ctx": [
+"expressionBrowserView",
+"modalMask"
+],
+"n": 12
+},
+{
+"en": "Modes Configuration",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Drag a Mode on top of another to create a Hybrid Mode.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "CYCLE",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Gig view",
+"kind": [
+"text"
+],
+"ctx": [
+"gigviewPanelView"
+],
+"n": 2
+},
+{
+"en": "Parameter Editor",
+"kind": [
+"text"
+],
+"ctx": [
+"gigviewPanelView"
+],
+"n": 2
+},
+{
+"en": "Scene CI",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Replace",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Previous preset",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"gridTopBarView"
+],
+"n": 2
+},
+{
+"en": "Next preset",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"gridTopBarView"
+],
+"n": 2
+},
+{
+"en": "More options",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"gridTopBarView"
+],
+"n": 2
+},
+{
+"en": "II",
+"kind": [
+"text"
+],
+"ctx": [
+"gridTopBarView",
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Model Preset Name",
+"kind": [
+"text"
+],
+"ctx": [
+"modelPresetMenuItem"
+],
+"n": 2
+},
+{
+"en": "Latching",
+"kind": [
+"text"
+],
+"ctx": [
+"stompsMenuItemView"
+],
+"n": 2
+},
+{
+"en": "Momentary",
+"kind": [
+"text"
+],
+"ctx": [
+"stompsMenuItemView"
+],
+"n": 2
+},
+{
+"en": "CLOSE",
+"kind": [
+"text"
+],
+"ctx": [
+"buttonsView"
+],
+"n": 2
+},
+{
+"en": "MID",
+"kind": [
+"text"
+],
+"ctx": [
+"buttonsView",
+"parallaxFilterPanelView"
+],
+"n": 4
+},
+{
+"en": "FAR",
+"kind": [
+"text"
+],
+"ctx": [
+"buttonsView"
+],
+"n": 2
+},
+{
+"en": "HZ",
+"kind": [
+"text"
+],
+"ctx": [
+"cabsimPanelView",
+"cabsimView"
+],
+"n": 6
+},
+{
+"en": "Load IR",
+"kind": [
+"text"
+],
+"ctx": [
+"cabsimPanelView"
+],
+"n": 4
+},
+{
+"en": "Done",
+"kind": [
+"text"
+],
+"ctx": [
+"cabsimPanelView",
+"irLoaderPanelView"
+],
+"n": 8
+},
+{
+"en": "Off",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer",
+"ioPanelContainer",
+"parameterView"
+],
+"n": 20
+},
+{
+"en": "GAIN REDUCTION",
+"kind": [
+"text"
+],
+"ctx": [
+"inputView",
+"parameterView"
+],
+"n": 4
+},
+{
+"en": "RESET",
+"kind": [
+"text"
+],
+"ctx": [
+"eqView"
+],
+"n": 6
+},
+{
+"en": "Input Gate Control is disabled, please free up some CPU capacity",
+"kind": [
+"text"
+],
+"ctx": [
+"inputView"
+],
+"n": 2
+},
+{
+"en": "IMPULSE RESPONSE 1",
+"kind": [
+"text"
+],
+"ctx": [
+"irLoaderPanelView",
+"irParametersView"
+],
+"n": 4
+},
+{
+"en": "IMPULSE RESPONSE 2",
+"kind": [
+"text"
+],
+"ctx": [
+"irLoaderPanelView",
+"irParametersView"
+],
+"n": 4
+},
+{
+"en": "IMPULSE RESPONSE",
+"kind": [
+"text"
+],
+"ctx": [
+"irLoaderPanelView",
+"irParametersView"
+],
+"n": 4
+},
+{
+"en": "READY",
+"kind": [
+"text"
+],
+"ctx": [
+"looperTransportView"
+],
+"n": 2
+},
+{
+"en": "AVAILABLE",
+"kind": [
+"text"
+],
+"ctx": [
+"looperTransportView"
+],
+"n": 2
+},
+{
+"en": "Alt+1",
+"kind": [
+"text"
+],
+"ctx": [
+"looperTransportView"
+],
+"n": 2
+},
+{
+"en": "Alt+2",
+"kind": [
+"text"
+],
+"ctx": [
+"looperTransportView"
+],
+"n": 2
+},
+{
+"en": "Alt+3",
+"kind": [
+"text"
+],
+"ctx": [
+"looperTransportView"
+],
+"n": 2
+},
+{
+"en": "Alt+4",
+"kind": [
+"text"
+],
+"ctx": [
+"looperTransportView"
+],
+"n": 2
+},
+{
+"en": "Alt+5",
+"kind": [
+"text"
+],
+"ctx": [
+"looperTransportView"
+],
+"n": 2
+},
+{
+"en": "Alt+6",
+"kind": [
+"text"
+],
+"ctx": [
+"looperTransportView"
+],
+"n": 2
+},
+{
+"en": "Alt+7",
+"kind": [
+"text"
+],
+"ctx": [
+"looperTransportView"
+],
+"n": 2
+},
+{
+"en": "Alt+8",
+"kind": [
+"text"
+],
+"ctx": [
+"looperTransportView"
+],
+"n": 2
+},
+{
+"en": "PREROLL",
+"kind": [
+"text"
+],
+"ctx": [
+"looperTransportView"
+],
+"n": 2
+},
+{
+"en": "V1 NOTE",
+"kind": [
+"text"
+],
+"ctx": [
+"minivoicerPanelView"
+],
+"n": 2
+},
+{
+"en": "V2 NOTE",
+"kind": [
+"text"
+],
+"ctx": [
+"minivoicerPanelView"
+],
+"n": 2
+},
+{
+"en": "Missing IR file:",
+"kind": [
+"text"
+],
+"ctx": [
+"missingIRMask"
+],
+"n": 2
+},
+{
+"en": "SomeDummyIr.wav",
+"kind": [
+"text"
+],
+"ctx": [
+"missingIRMask"
+],
+"n": 2
+},
+{
+"en": "REPLACE ...",
+"kind": [
+"text"
+],
+"ctx": [
+"missingIRMask"
+],
+"n": 2
+},
+{
+"en": "ARP PATTERN",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthArpeggiatorView"
+],
+"n": 2
+},
+{
+"en": "ROOT",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthArpeggiatorView"
+],
+"n": 4
+},
+{
+"en": "Determines the root note of the musical scale used by the arpeggiator. Select OFF to use the played note as the root.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"monosynthArpeggiatorView"
+],
+"n": 2
+},
+{
+"en": "SCALE",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthArpeggiatorView"
+],
+"n": 2
+},
+{
+"en": "OCTAVE",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthArpeggiatorView"
+],
+"n": 2
+},
+{
+"en": "NOTES",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthArpeggiatorView"
+],
+"n": 2
+},
+{
+"en": "RATE",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthArpeggiatorView"
+],
+"n": 2
+},
+{
+"en": "TUNING",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthArpeggiatorView"
+],
+"n": 2
+},
+{
+"en": "SLOPE (dB)",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthFilterView"
+],
+"n": 2
+},
+{
+"en": "Sets the steepness of the filter slope in decibels per octave. Slope values increase in 6 dB increments. Higher values create a steeper slope.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"monosynthFilterView"
+],
+"n": 2
+},
+{
+"en": "OSC 1",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthOscillatorView"
+],
+"n": 2
+},
+{
+"en": "OSCILLATOR",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthOscillatorView"
+],
+"n": 2
+},
+{
+"en": "OSC 2",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthOscillatorView"
+],
+"n": 2
+},
+{
+"en": "UNISON SOURCE",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthOscillatorView"
+],
+"n": 2
+},
+{
+"en": "OSC1",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthOscillatorView"
+],
+"n": 2
+},
+{
+"en": "OSC2",
+"kind": [
+"text"
+],
+"ctx": [
+"monosynthOscillatorView"
+],
+"n": 2
+},
+{
+"en": "SYNC",
+"kind": [
+"text"
+],
+"ctx": [
+"textButtonView"
+],
+"n": 2
+},
+{
+"en": "GLOBAL SETTINGS",
+"kind": [
+"text"
+],
+"ctx": [
+"multivoicerPanelView"
+],
+"n": 2
+},
+{
+"en": "KEY AND SCALE",
+"kind": [
+"text"
+],
+"ctx": [
+"multivoicerPanelView"
+],
+"n": 2
+},
+{
+"en": "QUANTIZE",
+"kind": [
+"text"
+],
+"ctx": [
+"multivoicerPanelView"
+],
+"n": 2
+},
+{
+"en": "VOICING",
+"kind": [
+"text"
+],
+"ctx": [
+"multivoicerPanelView"
+],
+"n": 2
+},
+{
+"en": "LEVEL/PAN",
+"kind": [
+"text"
+],
+"ctx": [
+"multivoicerVoicesPanel"
+],
+"n": 2
+},
+{
+"en": "DETUNE/DELAY",
+"kind": [
+"text"
+],
+"ctx": [
+"multivoicerVoicesPanel"
+],
+"n": 2
+},
+{
+"en": "OUT LEVEL",
+"kind": [
+"text"
+],
+"ctx": [
+"outputView"
+],
+"n": 4
+},
+{
+"en": "ASD ASD AS D",
+"kind": [
+"text"
+],
+"ctx": [
+"parallaxPanelView"
+],
+"n": 2
+},
+{
+"en": "Max",
+"kind": [
+"text"
+],
+"ctx": [
+"parameterView"
+],
+"n": 2
+},
+{
+"en": "Mid",
+"kind": [
+"text"
+],
+"ctx": [
+"parameterView"
+],
+"n": 2
+},
+{
+"en": "Min",
+"kind": [
+"text"
+],
+"ctx": [
+"parameterView"
+],
+"n": 2
+},
+{
+"en": "STEPS",
+"kind": [
+"text"
+],
+"ctx": [
+"patternTremoloPanelView"
+],
+"n": 2
+},
+{
+"en": "Tap and hold the top of a step, then drag horizontally to group them. Grouped steps share the same volume value. To ungroup, drag the edges inward until only one step remains.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"patternTremoloPanelView"
+],
+"n": 2
+},
+{
+"en": "SETTINGS",
+"kind": [
+"text"
+],
+"ctx": [
+"pitchDelayPanelView"
+],
+"n": 2
+},
+{
+"en": "OUTPUT",
+"kind": [
+"text"
+],
+"ctx": [
+"pitchDelayPanelView"
+],
+"n": 2
+},
+{
+"en": "Default Plugin Info Title",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Default Plugin Info Text",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "SEND 1/2",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"masterVolumeAssignmentPopupView",
+"portsView"
+],
+"n": 6
+},
+{
+"en": "Multiple options",
+"kind": [
+"text"
+],
+"ctx": [
+"portsView"
+],
+"n": 8
+},
+{
+"en": "Right mouse button",
+"kind": [
+"text"
+],
+"ctx": [
+"portsView"
+],
+"n": 8
+},
+{
+"en": "CAPTURE OUT",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "MIDI OUT/THRU",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "OUT 4/R",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 8
+},
+{
+"en": "Stereo pair",
+"kind": [
+"text"
+],
+"ctx": [
+"portsView"
+],
+"n": 32
+},
+{
+"en": "Left mouse button",
+"kind": [
+"text"
+],
+"ctx": [
+"portsView"
+],
+"n": 32
+},
+{
+"en": "MIDI IN",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "OUT 3/L",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 8
+},
+{
+"en": "OUT 1/L",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 8
+},
+{
+"en": "OUT 2/R",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 8
+},
+{
+"en": "EXP",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "RETURN 1/2",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "INPUT 1",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 8
+},
+{
+"en": "INPUT 2/ CAPTURE INPUT",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "USB",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "EXP 1",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "EXP 2",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "MIDI",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomBarView",
+"ioViewContainer",
+"portsView"
+],
+"n": 10
+},
+{
+"en": "OUT",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 8
+},
+{
+"en": "IN",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "CAPTURE",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "RET 2",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "RET 1",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "SEND 2",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "SEND 1",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "INPUT 2",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer",
+"portsView"
+],
+"n": 4
+},
+{
+"en": "Splitter 1/2",
+"kind": [
+"text"
+],
+"ctx": [
+"splitMixPanelView"
+],
+"n": 2
+},
+{
+"en": "Mixer 1/2",
+"kind": [
+"text"
+],
+"ctx": [
+"splitMixPanelView"
+],
+"n": 2
+},
+{
+"en": "PREFERRED INSTRUMENT",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer",
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Search across all Presets on your device",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Reset Looper X Actions",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Are you sure you want to reset all footswitch assignments to factory defaults?",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Save Current Parameters as...",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "No matching Presets found.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Save as default User Preset",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "INCOMING MIDI RESERVED CC LIST",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "SHORTCUTS",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "LOOPER X MIDI RESERVED CC LIST",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "SPLITTERS AND MIXERS",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Splitters and Mixers allow you to split your signal chain to route your signal to multiple outputs or add more Virtual Device blocks to The Grid.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "If you move any block vertically on The Grid between Rows 1 &amp; 2 or 3 &amp; 4, a Splitter/Mixer path will be created automatically. Dragging a block between Rows 1 or 2 and 3 or 4 will copy the Virtual Device.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "The Splitter sets the location where the signal splits.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "The Mixer sets the location where the signal joins a Row again.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "Detailed parameters are available for Splitters and Mixers that allow for switching between types, shortcut buttons for quick splits, and an on/off toggle.",
+"kind": [
+"text"
+],
+"ctx": [
+"panel"
+],
+"n": 2
+},
+{
+"en": "1: TYPE",
+"kind": [
+"text"
+],
+"ctx": [
+"globalEQView"
+],
+"n": 2
+},
+{
+"en": "Please press the expression pedal up and down to the maximum position then press Save",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomPanel"
+],
+"n": 6
+},
+{
+"en": "SAVE",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomPanel"
+],
+"n": 4
+},
+{
+"en": "RECALIBRATE",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomPanel"
+],
+"n": 4
+},
+{
+"en": "EXPRESSION 1",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomPanel"
+],
+"n": 2
+},
+{
+"en": "EXPRESSION 2 (MIDI IN ONLY)",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomPanel"
+],
+"n": 2
+},
+{
+"en": "EQ",
+"kind": [
+"text"
+],
+"ctx": [
+"ioViewContainer"
+],
+"n": 16
+},
+{
+"en": "I/O Settings",
+"kind": [
+"text",
+"tooltip"
+],
+"ctx": [
+"modalMask",
+"topBarView"
+],
+"n": 4
+},
+{
+"en": "Input 1",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Global EQ",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "CORTEX CONTROL",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "This is a pre-release build for marketing purposes only.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "User Manual",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Copy version Info.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Restoring backup...",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Booting...",
+"kind": [
+"text"
+],
+"ctx": [
+"bootingStateView"
+],
+"n": 2
+},
+{
+"en": "TUNER",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomBarView"
+],
+"n": 2
+},
+{
+"en": "TEMPO",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomBarView"
+],
+"n": 2
+},
+{
+"en": "TAP",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomBarView"
+],
+"n": 2
+},
+{
+"en": "GIG VIEW",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomBarView"
+],
+"n": 2
+},
+{
+"en": "CPU 0%",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomBarView"
+],
+"n": 2
+},
+{
+"en": "DEVELOPED BY NEURAL DSP",
+"kind": [
+"text"
+],
+"ctx": [
+"bottomBarView"
+],
+"n": 2
+},
+{
+"en": "Bulk Operation in Progress...",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Neural DSP® Devices",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Choose which connected Quad Cortex device you want to manage with Cortex Control.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Please connect one of your devices to your computer via USB and turn it on.",
+"kind": [
+"text"
+],
+"ctx": [
+"disconnectedStateView"
+],
+"n": 2
+},
+{
+"en": "CPU Monitor",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Help",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "VOLUME KNOB ASSIGNMENT",
+"kind": [
+"text"
+],
+"ctx": [
+"masterVolumeAssignmentPopupView"
+],
+"n": 2
+},
+{
+"en": "OUT 1/2",
+"kind": [
+"text"
+],
+"ctx": [
+"masterVolumeAssignmentPopupView"
+],
+"n": 2
+},
+{
+"en": "OUT 3/4",
+"kind": [
+"text"
+],
+"ctx": [
+"masterVolumeAssignmentPopupView"
+],
+"n": 2
+},
+{
+"en": "DEVICE_NAME is in Multi-select mode",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "DEVICE_NAME is currently in Multi-Select mode. Please exit the Multi-Select mode in order to continue using Cortex Control.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Error",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Your device must be in Grid View to complete this operation.\nPlease return to Grid View and try again.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Preset MIDI Out Settings",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Exp1",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Exp2 (MIDI)",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "CLEAR ALL",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 4
+},
+{
+"en": "Exp2",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "MIDI&#10;OUT",
+"kind": [
+"text"
+],
+"ctx": [
+"assignmentsView"
+],
+"n": 2
+},
+{
+"en": "Click a footswitch or expression pedal to assign MIDI messages to it. You can assign multiple MIDI messages to a single control.",
+"kind": [
+"text"
+],
+"ctx": [
+"assignmentsView"
+],
+"n": 2
+},
+{
+"en": "Footswitch X",
+"kind": [
+"text"
+],
+"ctx": [
+"assignmentsView"
+],
+"n": 2
+},
+{
+"en": "Type",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView"
+],
+"n": 2
+},
+{
+"en": "Channel",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView"
+],
+"n": 2
+},
+{
+"en": "CC#",
+"kind": [
+"text"
+],
+"ctx": [
+"backgroundView"
+],
+"n": 6
+},
+{
+"en": "Tempo",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Tempo LED",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Global",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Preset",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "BPM",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "MIDI Clock Out",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "MIDI Clock In",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "MIDI Clock In Out of Range",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "SOUND",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "TIME SIGNATURE",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "SUBDIVISIONS",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "ROUTING",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "VOLUME",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "PAN",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "This is the toast message",
+"kind": [
+"text"
+],
+"ctx": [
+"toastView"
+],
+"n": 2
+},
+{
+"en": "Toast Action #1",
+"kind": [
+"text"
+],
+"ctx": [
+"toastView"
+],
+"n": 2
+},
+{
+"en": "Toast Action #2",
+"kind": [
+"text"
+],
+"ctx": [
+"toastView"
+],
+"n": 2
+},
+{
+"en": "GRID",
+"kind": [
+"text"
+],
+"ctx": [
+"topBarView"
+],
+"n": 2
+},
+{
+"en": "DIRECTORY",
+"kind": [
+"text"
+],
+"ctx": [
+"topBarView"
+],
+"n": 2
+},
+{
+"en": "Redo",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"topBarView"
+],
+"n": 2
+},
+{
+"en": "Undo",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"topBarView"
+],
+"n": 2
+},
+{
+"en": "Tuner",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Hz",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "F#",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Ab",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Show Live Tuner in footer",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "CorOS Update Failed.",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "There was an error while updating your device or checking for new\nCorOS updates.",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "Close",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "Try again",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "Downloading update from Cortex Cloud.",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "!!! text should be set by UpdaterViewController !!!",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "CorOS update in progress",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "DURING THE UPDATE:",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 4
+},
+{
+"en": "The touchscreen and footswitches will be temporarily disabled.\nAudio will be unavailable.\nDo not remove the power cable or shut down your device.",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "CorOS Update Ready",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "The latest CorOS update is ready to install. We recommend creating a cloud or local\nbackup before proceeding.",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "The touchscreen and footswitches will be temporarily disabled.\nAudio will be unavailable.\nDo not remove the power cable or shut down your device",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "Reboot after the installation",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "Install",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "Later",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "CorOS Update Available",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "RELEASE NOTES",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "Hide",
+"kind": [
+"text"
+],
+"ctx": [
+"fwUpdaterModalMask"
+],
+"n": 2
+},
+{
+"en": "CorOS Version Mismatch",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "To resolve this issue, make sure both the Cortex Control app and the connected\nQuad Cortex device are up to date.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "If your CorOS version is older than the currently installed Cortex Control app, please visit our\nwebsite and download the installer that matches your operating system and CorOS version.\n\nIf you need to downgrade Cortex Control, manually uninstall the current version of the\napplication from your computer before installing the required version.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "DOWNLOADS PAGE",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Restart Capture",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Neural Capture",
+"kind": [
+"text"
+],
+"ctx": [
+"versionPickerView"
+],
+"n": 4
+},
+{
+"en": "Processed on your Device",
+"kind": [
+"text"
+],
+"ctx": [
+"versionPickerView"
+],
+"n": 2
+},
+{
+"en": "SUPPORTED DEVICES",
+"kind": [
+"text"
+],
+"ctx": [
+"versionPickerView"
+],
+"n": 4
+},
+{
+"en": "Amp + Cab",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"versionPickerView"
+],
+"n": 4
+},
+{
+"en": "Our original Neural Capture algorithm, trained directly on your device in just a few minutes.\n\nThis is the fastest and most lightweight way to create Neural Captures, ideal when you are on the go or without an internet connection.\n\nPerfect for capturing the sound of guitar amplifiers, combos, cabinets, and overdrives with remarkable accuracy.",
+"kind": [
+"text"
+],
+"ctx": [
+"versionPickerView"
+],
+"n": 2
+},
+{
+"en": "An advanced evolution of Neural Capture™ trained via Cortex Cloud™.\n\nThis option provides even higher resolution Captures, making it especially powerful for touch-sensitive devices like fuzzes, compressors, and certain styles of amplifiers.\n\nBy default, Neural Capture™ Version 2 files are automatically saved on your Cortex Cloud™ profile.",
+"kind": [
+"text"
+],
+"ctx": [
+"versionPickerView"
+],
+"n": 2
+},
+{
+"en": "Your Cortex Cloud is full",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Please delete some existing files from your Cortex Cloud to make space for new ones.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Show Cloud Folder",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Name already exists",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "message",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Instrument",
+"kind": [
+"text"
+],
+"ctx": [
+"connectionDiagramContainerView",
+"ioPanelContainer"
+],
+"n": 6
+},
+{
+"en": "To the input of the\ntarget device",
+"kind": [
+"text"
+],
+"ctx": [
+"connectionDiagramContainerView"
+],
+"n": 2
+},
+{
+"en": "From\nMic/Amp/Pedal",
+"kind": [
+"text"
+],
+"ctx": [
+"connectionDiagramContainerView"
+],
+"n": 2
+},
+{
+"en": "NEXT",
+"kind": [
+"text"
+],
+"ctx": [
+"connectionDiagramContainerView"
+],
+"n": 2
+},
+{
+"en": "PREVIOUS",
+"kind": [
+"text"
+],
+"ctx": [
+"connectionDiagramContainerView"
+],
+"n": 2
+},
+{
+"en": "BACK",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer",
+"connectionDiagramContainerView"
+],
+"n": 4
+},
+{
+"en": "SKIP",
+"kind": [
+"text"
+],
+"ctx": [
+"connectionDiagramContainerView"
+],
+"n": 2
+},
+{
+"en": "Calibration",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "Ground Lift",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "IN 1 LEVEL",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "Adjust this level as you would in The Grid to properly feed the target device while playing your instrument. This setting is for monitoring purposes only and does not affect the CAPTURE OUT training signal level.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "INSTRUMENT",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "dB",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 4
+},
+{
+"en": "-40.0\ndB",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 4
+},
+{
+"en": "IN 1 TYPE",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "Mic",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 4
+},
+{
+"en": "IN 1 IMPEDANCE",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": " Ω",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 4
+},
+{
+"en": "IN 1 PHANTOM",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "IN 2 LEVEL",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "Adjusts the signal level coming from the target device into INPUT 2. For optimal results, aim for a peak level around –12dB.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "DEVICE",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer",
+"ioPanelContainer"
+],
+"n": 4
+},
+{
+"en": "IN 2 IMPEDANCE",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "IN 2 TYPE",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "IN 2 PHANTOM",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "IN 1 GROUND LIFT",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "IN 2 GROUND LIFT",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "OUT 1 GROUND LIFT",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "OUT 2 GROUND LIFT",
+"kind": [
+"text"
+],
+"ctx": [
+"ioPanelContainer"
+],
+"n": 2
+},
+{
+"en": "NEURAL CAPTURE",
+"kind": [
+"text"
+],
+"ctx": [
+"neuralCaptureView"
+],
+"n": 2
+},
+{
+"en": "DEVICE_NAME headphone level",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"neuralCaptureView"
+],
+"n": 2
+},
+{
+"en": "DEVICE_NAME volume",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"neuralCaptureView"
+],
+"n": 2
+},
+{
+"en": "Capture in progress",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "A capture is in progress, are you sure you want to\nquit?",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Quit",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "There was an error during the Sanity\nCheck phase",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "There was an error during the Sanity Check phase",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Back to Calibration Screen",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Neural Capture Saved",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "TYPE",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer",
+"modalMask"
+],
+"n": 10
+},
+{
+"en": "Capture name",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer",
+"modalMask"
+],
+"n": 10
+},
+{
+"en": "CREATE ANOTHER CAPTURE",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "EXIT",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Reduce levels if any of the&#10;meters detect clipping.",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "The IN 2 GROUND LIFT can&#10;mitigate noise caused by&#10;ground loops between&#10;DEVICE_NAME and the target&#10;device.",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "CABSIM",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "A/B TEST",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "DEVICE_NAME",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "Reference",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "ALTERNATE",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "2s",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "4s",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "6s",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "Name this Capture",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "TYPE OF CAPTURE",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "Depending on the type of device being captured, the process may produce loud signals for extended periods. This is expected behavior and is not cause for concern.",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "START CAPTURE",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "FILL METADATA",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "CAPTURE IN PROGRESS...",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "START FROM SCRATCH",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "RESTART CAPTURE",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "SAVE NEURAL CAPTURE",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "By default, Neural Capture™ Version 2 files are automatically saved on your Cortex Cloud™ profile.",
+"kind": [
+"tooltip"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "CONNECTION DIAGRAM",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "EDIT NAME",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "Recording signals...",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "ABORT THE PROCESS",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 6
+},
+{
+"en": "Training Complete",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "Waiting for device to download capture.",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "Training...",
+"kind": [
+"text"
+],
+"ctx": [
+"captureContainer"
+],
+"n": 2
+},
+{
+"en": "&lt;bio&gt;",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Settings",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+},
+{
+"en": "Please log in to link DEVICE_NAME with your Neural DSP account.",
+"kind": [
+"text"
+],
+"ctx": [
+"modalMask"
+],
+"n": 2
+}
+]

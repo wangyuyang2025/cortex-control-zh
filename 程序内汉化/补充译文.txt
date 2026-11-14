@@ -1,0 +1,33 @@
+# 11-14 补：原补丁没覆盖的两类布局文字（patch_xml.py 读这份）
+# 格式：类别|英文原文|中文     换行写 \n
+# nav = 设置页左栏（只改 selectedSettingsSection 里的 enumValue name）
+# def = stringProperty 的 default 文字（只改 id 以 Text / Message 结尾的）
+nav|My Account|我的账号
+nav|Backups|备份
+nav|Connection|网络连接
+nav|Device Updates|软件更新
+nav|Brightness|亮度
+nav|Power Functions|电源操作
+nav|Power On Mode|开机模式
+nav|Lock Device|锁定设备
+nav|Master Volume|主音量
+nav|Device Storage|设备存储
+nav|Factory Reset|恢复出厂设置
+nav|Global Bypass|全局旁通
+nav|Scene Bypass State Behavior|场景模式的旁通行为
+nav|Stomp Mode Bypass Assignment|单块模式旁通分配
+nav|Hold Timing|长按触发时间
+nav|Gig View Access|脚踏开关进演出视图
+nav|Swap Tempo and Tuner Access|对调速度/调音器
+nav|Dynamic Latency Compensation|动态延迟补偿
+nav|MIDI Settings|MIDI 设置
+nav|Contact Support|联系客服
+nav|Device Information|设备信息
+nav|Send Report|发送诊断报告
+nav|Preset and Scene Reload Behavior|预设与场景重载
+def|Enable this feature to toggle Gig View by pressing and holding footswitch A.|开启后，长按脚踏开关 A 可开关演出视图（Gig View）。
+def|Lock Touchscreen and Volume Knob|锁定触摸屏和音量旋钮
+def|Lock Touchscreen and Volume Switches|锁定触摸屏和音量按键
+def|Quad Cortex can send MIDI messages to external devices. These messages can be configured and customized in this menu.|Quad Cortex 可以向外部设备发送 MIDI 消息，在这个菜单里设置。
+def|Quad Cortex mini can send MIDI messages to external devices. These messages can be configured and customized in this menu.|Quad Cortex mini 可以向外部设备发送 MIDI 消息，在这个菜单里设置。
+def|Enable this option to access the Tuner by double-tapping the bottom-right footswitch, and access the Tempo settings by holding the bottom-right footswitch.|开启后：双击右下角脚踏开关进调音器，长按右下角脚踏开关进速度设置。

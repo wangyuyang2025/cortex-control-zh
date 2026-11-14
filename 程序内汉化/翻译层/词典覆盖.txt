@@ -1,0 +1,125 @@
+# 翻译层词典的人工规则，优先级最高。改完重跑 打补丁.sh。
+#
+# 一、场合（是程序里哪段代码在画这个字；地址只对 4.1.0 有效，升级后要重认）
+#   @ctx|地址|标记|说明
+@ctx|100d74008|M|型号列表（音箱、效果器…每一行）
+@ctx|1015b3244|B|按钮和标签页（GUITAR / BASS、A–H）
+@ctx|101331654|G|效果链每行两头的小格子（In / Row / Prev. row / Multi Out）
+@ctx|1014e3620|L|通用列表项（左侧分类、预设列表每一行）
+@ctx|1015ab6a0|T|通用文字标签（旋钮名、预设大标题、参数面板标题）
+#
+# 二、改词： 英文原文|显示文字      或   英文原文@场合标记|显示文字   （只在那个场合这样写）
+#   大小写写得和程序里一模一样时优先按大小写精确匹配。
+#   型号真名只在「型号列表」里换（build_dict.py 自动加 @M），预设名、标题不动。
+BASS@B|贝斯 BASS
+GUITAR@B|吉他 GUITAR
+bass|低频 BASS
+In@G|输入
+Out@G|输出
+Multi@G|多路
+Prev.@G|接上
+row@G|一行
+Row@G|到行
+#
+# 三、11-14 补：预设面板左栏、右上角 ⋯ 菜单、设置页小标题（Windows 词典里没有的）
+Search|搜索 Search
+Recent|最近 Recent
+Favorites|收藏 Favorites
+Downloads|下载 Downloads
+Cloud Presets|云端预设
+Factory Presets|出厂预设
+My Presets|我的预设
+New Folder|新建文件夹
+PRESETS|预设 PRESETS
+SYSTEM|系统 SYSTEM
+DEVICE|设备 DEVICE
+New Neural Capture|新建采集
+Undo|撤销 Undo
+Redo|重做 Redo
+Settings|设置 Settings
+I/O Settings|输入输出设置 I/O Settings
+Modes Configuration|模式配置
+About Cortex Control|关于 Cortex Control
+Help|帮助 Help
+Check for Updates|检查更新 Check for Updates
+Logged out|未登录 Logged out
+BANK 1|第 1 组
+BANK 2|第 2 组
+BANK 3|第 3 组
+BANK 4|第 4 组
+BANK 5|第 5 组
+BANK 6|第 6 组
+BANK 7|第 7 组
+BANK 8|第 8 组
+BANK 9|第 9 组
+BANK 10|第 10 组
+BANK 11|第 11 组
+BANK 12|第 12 组
+BANK 13|第 13 组
+BANK 14|第 14 组
+BANK 15|第 15 组
+BANK 16|第 16 组
+BANK 17|第 17 组
+BANK 18|第 18 组
+BANK 19|第 19 组
+BANK 20|第 20 组
+BANK 21|第 21 组
+BANK 22|第 22 组
+BANK 23|第 23 组
+BANK 24|第 24 组
+BANK 25|第 25 组
+BANK 26|第 26 组
+BANK 27|第 27 组
+BANK 28|第 28 组
+BANK 29|第 29 组
+BANK 30|第 30 组
+BANK 31|第 31 组
+BANK 32|第 32 组
+#
+# 四、11-14 出厂预设名直接换成真机名（作者定）。和型号名写法对不上的几个手工补：
+EV101III Red@L|EVH 5150 III Red
+EV101III Red@T|EVH 5150 III Red
+EV101III Blue@L|EVH 5150 III Blue
+EV101III Blue@T|EVH 5150 III Blue
+OneStar Clean Tweed@L|Mesa Boogie Lone Star Clean Tweed
+OneStar Clean Tweed@T|Mesa Boogie Lone Star Clean Tweed
+# 顶栏预设名是几段颜色拼起来的文字，在拼接处换，按场合 T 查（所以下面这几条 @S 实际用的是上面的 @T）。
+EV101III Red@S|EVH 5150 III Red
+EV101III Blue@S|EVH 5150 III Blue
+OneStar Clean Tweed@S|Mesa Boogie Lone Star Clean Tweed
+#
+# 五、11-14 设置页里写死在程序里的英文说明。实测：程序是一行一行（一段一段）往里拼的，所以键也要一行一条；
+#    前后空格不用管（翻译层会自动去掉再查、换完接回去）。带 @T 的只在拼接文字/文字标签里换。
+Performing any of the power functions below will interrupt your connection|执行下面任一电源操作都会断开和设备的连接，
+to the device and may affect any ongoing operations in Cortex Control.|也可能打断 Cortex Control 里正在进行的操作。
+Please ensure any unsaved changes are saved before proceeding.|继续之前，请先保存还没保存的改动。
+Always overwrite|总是覆盖
+bypass state (default)|旁通状态（默认）
+Do not overwrite bypass state when changing bypass state via|用单块模式（含混合单块模式）的脚踏开关或 MIDI
+footswitches in Stomp Mode (including Hybrid Stomp Mode) or|改旁通时，
+MIDI.@T|不覆盖旁通状态。
+Changes made with the touchscreen will be saved.|在触摸屏上改的会保存。
+Never overwrite|从不覆盖
+bypass state when changing|旁通状态，
+bypass state by any method.|不管用哪种方式改旁通。
+will restore Quad Cortex to its default settings. User data (Presets, Captures, etc.) will not be removed.|会把 Quad Cortex 恢复为默认设置；用户数据（预设、Capture 等）不会删除。
+will restore Quad Cortex mini to its default settings. User data (Presets, Captures, etc.) will not be removed.|会把 Quad Cortex mini 恢复为默认设置；用户数据（预设、Capture 等）不会删除。
+will remove all user data and the device will be restored to factory|会删除所有用户数据，设备恢复到
+settings.@T|出厂状态。
+Reset Settings|重置设置
+Factory Reset|恢复出厂设置
+Default Domain:|默认区域：
+Connects to the standard global Cortex Cloud server.|连接标准的全球 Cortex Cloud 服务器。
+Alternative Domain:|备用区域：
+Connects to an alternative server that may|连接备用服务器，在访问受限的地区
+improve connectivity in certain regions experiencing access issues.|可能更容易连上。
+Following@T|关注
+Followers@T|粉丝
+CLOUD BACKUPS|云端备份 CLOUD BACKUPS
+LOCAL BACKUPS|本机备份 LOCAL BACKUPS
+LOCK QUAD CORTEX|锁定 QUAD CORTEX
+Disabled|已关闭
+Enabled|已开启
+Check for updates|检查更新
+Guitar Amplifier|吉他箱头 Guitar Amplifier
+Bass Amplifier|贝斯箱头 Bass Amplifier
