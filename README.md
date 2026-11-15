@@ -115,9 +115,9 @@ VERSION  CHANGELOG.md   版本号、更新记录
 ## 致谢与来源
 
 - 型号与真机的对应关系来自 Neural DSP 官方公开的 [Device List](https://neuraldsp.com/device-list)。
-- 界面译文、参数名译文、型号说明有相当一部分取自社区流传的 Windows 版 Cortex Control 汉化补丁（见 `对照数据/Windows补丁译文/`）。原作者信息待补；如果你是作者，或知道作者是谁，请告诉我，我会署名，或按作者意愿撤下这部分。
-- 其余译文、Mac 版的实现由本仓库作者在 Claude 协助下完成。
+- 界面译文、参数名译文由 AI 辅助翻译，再由作者按实际界面逐处核对、人工定稿（场合区分、真机名、设置页说明等）。起步时参考过社区流传的 Windows 版汉化补丁里的 AI 译文（`对照数据/Windows补丁译文/`），没有照搬。叫法不对的欢迎提 issue。
+- Mac 版的实现由本仓库作者在 Claude 协助下完成。
 
 ## 许可
 
-本仓库里作者自己写的代码和译文按 MIT 许可发布，见 `LICENSE`。`对照数据/Windows补丁译文/` 来自第三方，不在 MIT 范围内，见上面的说明。
+本仓库的代码和译文按 MIT 许可发布，见 `LICENSE`。Quad Cortex、Cortex Control 及各品牌、型号名称归其各自所有者。
