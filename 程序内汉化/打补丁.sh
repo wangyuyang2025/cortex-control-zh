@@ -13,6 +13,7 @@ WORK="${TMPDIR:-/tmp}/cortex-zh-patch"
 
 [ -d "$SRC" ] || { echo "找不到官方 Cortex Control：$SRC"; exit 1; }
 VER=$(/usr/bin/plutil -extract CFBundleShortVersionString raw "$SRC/Contents/Info.plist")
+ZHVER=$(cat "$HERE/../VERSION" 2>/dev/null || echo dev)
 
 python3 -I "$HERE/merge.py" "$HERE/../对照数据" "$HERE/译文.json"
 
@@ -37,6 +38,7 @@ fi
 codesign -d --entitlements :- "$SRC" > "$WORK/ent.plist" 2>/dev/null
 codesign --force --deep --sign - --entitlements "$WORK/ent.plist" "$WORK/Cortex Control 中文.app"
 codesign --verify --strict "$WORK/Cortex Control 中文.app"
+/usr/bin/plutil -replace CortexZhVersion -string "$ZHVER" "$WORK/Cortex Control 中文.app/Contents/Info.plist" 2>/dev/null || true
 /usr/bin/plutil -replace CortexZhBasedOn -string "$VER" "$WORK/Cortex Control 中文.app/Contents/Info.plist" 2>/dev/null || true
 codesign --force --deep --sign - --entitlements "$WORK/ent.plist" "$WORK/Cortex Control 中文.app"
 
@@ -44,4 +46,4 @@ mkdir -p "$DEST_DIR"
 rm -rf "$DEST"
 ditto "$WORK/Cortex Control 中文.app" "$DEST"
 xattr -dr com.apple.quarantine "$DEST" 2>/dev/null || true
-echo "装好了：$DEST（基于官方 $VER）"
+echo "装好了：$DEST（中文版 $ZHVER，基于官方 $VER）"
